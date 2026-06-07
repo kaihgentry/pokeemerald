@@ -5259,13 +5259,13 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_UMBREON] =
     {
         .baseHP        = 95,
-        .baseAttack    = 65,
-        .baseDefense   = 110,
-        .baseSpeed     = 65,
+        .baseAttack    = 80,
+        .baseDefense   = 120,
+        .baseSpeed     = 75,
         .baseSpAttack  = 60,
         .baseSpDefense = 130,
         .type1 = TYPE_DARK,
-        .type2 = TYPE_DARK,
+        .type2 = TYPE_POISON,
         .catchRate = 45,
         .expYield = 184,
         .evYield_SpDefense = 2,
@@ -5276,9 +5276,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_SYNCHRONIZE, ABILITY_MAGIC_GUARD, ABILITY_INNER_FOCUS},
+            .abilities = {ABILITY_SYNCHRONIZE, ABILITY_MAGIC_GUARD, ABILITY_INTIMIDATE},
         #else
-            .abilities = {ABILITY_SYNCHRONIZE, ABILITY_SYNCHRONIZE, ABILITY_INNER_FOCUS},
+            .abilities = {ABILITY_SYNCHRONIZE, ABILITY_SYNCHRONIZE, ABILITY_INTIMIDATE},
         #endif
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
